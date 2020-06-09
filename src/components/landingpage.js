@@ -17,10 +17,23 @@ class LandingPage extends Component {
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
-              <p>Stuff im good at </p>
+              <p>
+                HTML5 | CSS3 | JavaScript | JQuery | Bootstrap | Express.js |
+                React.js | Node.js | MongoDB | Java | MySQL | Git
+              </p>
               <div classname="social-links">
+                {/*Github*/}
                 <a
                   href="https://github.com/ConradRodgers"
+                  rel="noopener noreferrer"
+                  target="_black"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+
+                {/* linkedin*/}
+                <a
+                  href="https://www.linkedin.com/in/conrad-rodgers-15a8bb198/"
                   rel="noopener noreferrer"
                   target="_black"
                 >
